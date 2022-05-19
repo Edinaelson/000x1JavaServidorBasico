@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class ServidorBasico {
 	
-	public static void main(String[] args) {
+	public static void main(String a[]) {
 		System.out.println("Iniciando Servidor...");
 		
 		try (ServerSocket servidor = new ServerSocket(1234);){
